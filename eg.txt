@@ -41,3 +41,31 @@ int main() {
 	// your code goes here
 	return 0;
 }
+
+
+//code repeat for second commit
+
+
+
+int main() {
+    int t;
+    cin>>t;
+    long long int s=0;
+    for(int l=0;l<t;l++)
+    {
+        long long int n1,r1,n2,r2;
+        cin>>n1>>r1;
+        n2=n1-1;
+        r2=r1-1;
+     long long int s;
+     
+      
+        cout<<nCr(n2,r2)<<endl;
+        
+    }
+	// your code goes here
+	return 0;
+}
+
+
+
